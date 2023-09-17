@@ -11,26 +11,26 @@ import DirectoryItem from "../directory-item/directory-item.component";
   {
     "id": 2,
     "title": "jackets",
-    "imageUrl": "https://i.ibb.co/px2tCc3/jackets.png",
+    "imageUrl": "https://source.unsplash.com/P0W27GRvyww",
     "route":"shop/jackets"
   },
   {
     "id": 3,
     "title": "sneakers",
-    "imageUrl": "https://i.ibb.co/0jqHpnp/sneakers.png",
+    "imageUrl": "https://source.unsplash.com/iOv3CqiZLtE",
     "route":"shop/sneakers"
 
   },
   {
     "id": 4,
     "title": "womens",
-    "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png",
+    "imageUrl": "https://source.unsplash.com/eFRh6onp24Q",
     "route":"shop/womens"
   },
   {
     "id": 5,
     "title": "mens",
-    "imageUrl": "https://i.ibb.co/R70vBrQ/men.png",
+    "imageUrl": "https://source.unsplash.com/TwuPHbcQ57w",
     "route":"shop/mens"
   }
 ]
