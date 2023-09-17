@@ -1,5 +1,5 @@
 import FormInput from "../form-input/form-input.component";
-import Button from "../button/button.component";
+import {BaseButton,GoogleSignInButton} from "../button/button.styles";
 import { useState } from "react";
 import { signInWithGooglePopup,createUserDocumentFromAuth,signInAuthUserWithEmailAndPassword } from "../../utils/firebase/firebase.utils"; 
 import { UserContext } from "../../context/user.context";
@@ -86,9 +86,9 @@ const SignInForm = ()=>{
                         }}
                     />
                     <div className="buttons-container">
-                        <Button type="submit" onClick={handleSubmit}>SIGN IN</Button>
+                        <BaseButton type="submit" onClick={handleSubmit}>SIGN IN</BaseButton>
                     
-                        <Button type="button" buttonType='google' onClick={signInWithGoogle}>GOOGLE SIGN IN</Button>
+                        <GoogleSignInButton type="button" buttonType='google' onClick={signInWithGoogle}>GOOGLE SIGN IN</GoogleSignInButton>
                     </div>
                 </form>
             </div>
